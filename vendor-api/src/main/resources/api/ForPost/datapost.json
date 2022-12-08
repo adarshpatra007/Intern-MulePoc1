@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "orderId": {
+      "type": "string"
+    },
+    "processingDate": {
+      "type": "string"
+    },
+    "processingTime": {
+      "type": "string"
+    },
+    "noOfRecords": {
+      "type": "string"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "contactNo": {
+            "type": "string"
+          },
+          "emailId": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
